@@ -297,7 +297,7 @@ void send_update_clock(void){
     //*************************************************************
     digitMu = (minutes%10);
     numMinuU=segments[digitMu];
-    digitMu = (minutes/10);
+    digitMd = (minutes/10);
     numMinuD=segments[digitMd];
     //**************************************************************
     digitHu = (hours%10);
